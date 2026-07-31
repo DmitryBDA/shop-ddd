@@ -1,0 +1,11 @@
+#ddev-generated
+services:
+  redis:
+    ports:
+      - "63790:6379"
+  db:
+    ports:
+      - "54320:5432"
+  web:
+    ports:
+      - "8080:80"
